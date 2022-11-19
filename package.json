@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "npm run dev"
+    "start": "npx http-server -P http://127.0.0.1:${PORT} ./dist"
   },
   "dependencies": {
     "bootstrap": "^5.2.2",
